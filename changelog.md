@@ -1,67 +1,89 @@
-# Mediumish Jekyll Theme - Change Log
+# Changelog
 
-## 2019-05-16, v1.0.36
-- docker-composer.yml
-- better responsiveness for 1920x1080 resolution
+All the changes made to Blist theme for Hugo.
 
-## 2019-04-02, v1.0.35
-- Fixed Github pages issue with ratings under 1
-- Added support for local avatars
+## v2.1.0 - 2023-01-09
 
-## 2019-03-22, v1.0.34
-- Deferred font awesome and google fonts
+### Added
 
-## 2019-03-22, v1.0.33
-- Added image lazy load (config.yml - lazyimages: "enabled/disabled")
-- Added object cover images instead of background images for home featured cards
-- Removed disqus count from homepage for better performance
+- Support multiple comment systems #64
 
-## 2019-03-20, v1.0.32
-- Centered avatar image on smaller devices
-- Removed .html endings in cats/tags
-- Added Linkedin share 
-- Added Table of Contents (toc:true)
-- Added Paragraph before TOC (beforetoc: "My short description here")
+## v2.0.1 - 2022-12-27
 
+### Fixed
 
-## 2019-03-20, v1.0.31
-- Added adsense support (activate via _config.yml)
-- Fixed share for large headers
+- Page metadata layout in mobile #94
 
-## 2019-03-20, v1.0.30
-- Added Tags support
-- Removed Google + sharing, no longer needed
+## v2.0.0 - 2022-12-25
 
-## 2019-03-01, v1.0.29
-- Fixed Jumbotron categories link
+### Added
 
-## 2019-03-01, v1.0.28
-- Added blurred text on spoilers
-- Added half stars for ratings
+- BREAKING: Ability to specify social icons order #91
+- Table of contents support #84
+- Search customization #79
+- Option to skip showing thumbnail in post page #93
+- Added more social icons
+  - Mastodon #92
+  - XDA #83
+  - Telegram #83
+  - Buy me a coffee #83
+  - Google Scholar #85
+  - Facebook #90
+  - Behance #66
+  - Tiktok #77
+  - Stackoverflow #71
 
-## 2019-03-01, v1.0.27
-- Reveal hidden spoilers on click
-- Syntax line numbers
-- Post rating stars
-- Fixed category links with more than 1 word
+### Fixed
 
-## 2019-02-14
-- Fixed Feed site title not showing
-- Added 404 page
+- Inline code block #78
 
-## 2019-02-10
-- Fixed CSS Jumbotron categories
+## v1.5.0 - 2022-08-11
 
-## 2019-02-09
-- Fixed Category links are now compatible with Github pages. Archive still available for non Github pages.
-- Added Search
-- Added SEO
+### Added
 
-## 2018-11-08
-- Fixed reponsive footer jumbotron for tags
+- Ability to hide metadata via param hideMeta #37
+- Hide other languages option via param hideOtherLanguages
+- Add French support #53 #54 #55
 
-## 2018-11-07
-- Added external image support
+### Fixed
 
-## 2018-09-12
-- Added option to disable comments in a specific post with `comments: false` in YAML front matter
+- Fix broken Multilingual search
+
+## v1.4.0 - 2022-01-08
+
+### Added
+
+- Hamburger menu for mobile UI #23
+- Image logo support #24
+
+## v1.3.1 - 2021-11-28
+
+### Added
+
+- Adding xing support to social icons - #15
+- Fix: Adding missing whitespace between label and language in single page - #16
+- Fix: Readable Lastmod - #17
+
+## v1.3.0 - 2021-10-27
+
+### Added
+
+- Add YouTube & Instagram social icons - #9
+- Add i18n support - #11
+- Add 404 page - #13
+
+## v1.2.0 - 2021-07-18
+
+### Added
+
+- Add color customization for Intro and Social links blocks
+
+## v1.1.0 - 2021-07-17
+
+### Added
+
+- Add support for text search
+
+## v1.0.0 - 2021-07-16
+
+- Initial Release
